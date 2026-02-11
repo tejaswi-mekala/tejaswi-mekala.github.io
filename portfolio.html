@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mekala Tejaswi Reddy | Portfolio</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#b7c6bd; /* exact soft sage */
+    color:#2f2f2f;
+}
+
+/* NAVBAR */
+nav{
+    position:sticky;
+    top:0;
+    background:#f5f4ef;
+    display:flex;
+    justify-content:space-between;
+    padding:18px 60px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+nav h3{
+    margin:0;
+    font-weight:600;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2f2f2f;
+    margin-left:25px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#4a5d52;
+}
+
+/* HERO */
+header{
+    text-align:center;
+    padding:100px 20px 60px;
+}
+
+header h1{
+    font-family: Georgia, serif;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:15px;
+    opacity:0.8;
+}
+
+/* SECTION CARDS */
+.section{
+    background:#f5f4ef;
+    width:85%;
+    max-width:900px;
+    margin:60px auto;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.section:hover{
+    transform:translateY(-5px);
+}
+
+.section h2{
+    font-family: Georgia, serif;
+    font-size:22px;
+    margin-bottom:20px;
+    color:#4a5d52;
+}
+
+/* PROJECT */
+.project{
+    margin-bottom:15px;
+    padding:15px;
+    background:#e8e6df;
+    border-left:4px solid #4a5d52;
+    border-radius:8px;
+}
+
+/* SKILLS GRID */
+.skills-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.skills-grid ul{
+    padding-left:18px;
+    line-height:1.8;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    text-align:left;
+    padding:12px;
+    background:#e2dfd7;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #d5d2c8;
+}
+
+tr:hover{
+    background:#ece9e2;
+}
+
+/* LINKS */
+a{
+    color:#4a5d52;
+    text-decoration:none;
+    font-weight:500;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    font-size:14px;
+    background:#f5f4ef;
+    margin-top:60px;
+}
+
+@media(max-width:768px){
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+    nav{
+        padding:15px 20px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h3>Portfolio</h3>
+    <div>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<header>
+    <h1>Mekala Tejaswi Reddy</h1>
+    <p>BE 2nd Year IT Student | Software Development Enthusiast</p>
+</header>
+
+<div class="section">
+    <h2>About</h2>
+    <p>
+        Second-year B.E student at Vasavi College of Engineering with strong interest in 
+        Data Structures, Object-Oriented Programming and structured problem solving.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Projects</h2>
+    <div class="project"><strong>Luminous Path</strong> – Women's Safety Companion application.</div>
+    <div class="project"><strong>Word Guess Game</strong> – Python console game.</div>
+    <div class="project"><strong>Smart Budgeting</strong> – Income and expense tracking app.</div>
+    <div class="project"><strong>Social Media Analysis System</strong> – Trend analysis system.</div>
+</div>
+
+<div class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div>
+            <strong>Technical Skills</strong>
+            <ul>
+                <li>C Programming</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Data Structures & Algorithms</li>
+            </ul>
+        </div>
+        <div>
+            <strong>Other Skills</strong>
+            <ul>
+                <li>Analytical Thinking</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Educational Background</h2>
+    <table>
+        <tr>
+            <th>Education</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>BTech</td>
+            <td>Vasavi College Of Engineering</td>
+            <td>2028</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>Narayana Junior College</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>Schooling</td>
+            <td>Johnson Grammar School</td>
+            <td>2020</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section">
+    <h2>Certifications</h2>
+    <ul>
+        <li>NPTEL – Introduction to C</li>
+        <li>Cisco Networking Academy – Basic Networks</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Contact</h2>
+    <p>Email: tejaswi6316@gmail.com</p>
+    <p>Phone: 8317622101</p>
+   </div>
+
+<footer>
+    © 2026 Mekala Tejaswi Reddy
+</footer>
+
+</body>
+</html>
